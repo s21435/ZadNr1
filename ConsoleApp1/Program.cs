@@ -17,3 +17,14 @@ static double getAvarage(int[] tab)
 }
 int[] tab = [1,2,3,4,5,6,7,8,9,9];
 Console.WriteLine(getAvarage(tab));
+
+static int getMax(int[] tab)
+{
+    int max = tab[0];
+    for (int i = 0; i < tab.Length - 1; i++)
+    {
+        if (tab[i] > max)
+            max = tab[i];
+    }
+    return max;
+}
