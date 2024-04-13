@@ -20,11 +20,11 @@ Console.WriteLine(getAvarage(tab));
 
 static int getMax(int[] tab)
 {
-    int max = tab[0];
+    int maxi = tab[0];
     for (int i = 0; i < tab.Length - 1; i++)
     {
-        if (tab[i] > max)
-            max = tab[i];
+        if (tab[i] > maxi)
+            maxi = tab[i];
     }
-    return max;
+    return maxi;
 }
