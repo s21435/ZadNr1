@@ -23,6 +23,9 @@ static int getMax(int[] tab)
     int maxi = tab[0];
     for (int i = 0; i < tab.Length - 1; i++)
     {
+        int a = 0;
+        if (tab[i] > max)
+            maxi = tab[i];
         if (tab[i] > maxi)
             maxi = tab[i];
     }
