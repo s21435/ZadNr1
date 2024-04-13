@@ -4,7 +4,7 @@ Console.WriteLine("Hello, World 1!");
 Console.WriteLine("Hello, World 2!");
 Console.WriteLine("Hello, World 3!");
 
-static double getAvarage(double[] tab)
+static double getAvarage(int[] tab)
 {
     double avarage = 0, sum = 0;
     for (int i = 0; i < tab.Length - 1; i++)
@@ -15,3 +15,5 @@ static double getAvarage(double[] tab)
     avarage = sum / tab.Length;
     return avarage;
 }
+int[] tab = [1,2,3,4,5,6,7,8,9,9];
+Console.WriteLine(getAvarage(tab));
